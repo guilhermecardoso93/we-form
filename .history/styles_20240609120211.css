@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: auto;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+aside h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+aside h1>span {
+  color: #FF5678;
+}
+
+aside img {
+  width: 40rem;
+}
+
+
+main {
+  width: 600px;
+  height: 520px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+main h2 {
+  max-width: 430px;
+}

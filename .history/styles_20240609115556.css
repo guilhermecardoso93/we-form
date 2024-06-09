@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+aside h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+aside h1 > span {
+  color: #6d09ca;
+}
+
+
+.content {}
